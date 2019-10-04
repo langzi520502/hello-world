@@ -1,4 +1,4 @@
-appName="simons-cloud-eureka"
+appName="demo"
 word="1"
 echo "$word"
 word=`docker ps -a -q --no-trunc --filter name=^/"$appName"$`
