@@ -1,4 +1,4 @@
 FROM openjdk:8-jdk-alpine
-VOLUME /var/jenkins_home
-ADD demo.jar demo.jar
+VOLUME /tmp
+ADD demo-0.0.1-SNAPSHOT.jar demo.jar
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/demo.jar"]
