@@ -60,7 +60,7 @@
 					<!-- 镜像标签-->
 					<imageTags>
 						<!--可以指定多个标签    建议弄成自增序列或者时间戳类型，用于区分版本-->
-						<imageTag>${maven.build.timestamp}</imageTag>
+						<imageTag>latest</imageTag>
 					</imageTags>
 					<baseImage>java</baseImage>
 					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
