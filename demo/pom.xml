@@ -69,7 +69,7 @@
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
-							<directory>${project.build.directory}</directory>
+							<directory>${project.build.directory}/docker</directory>
 							<include>${project.build.finalName}.jar</include>
 						</resource>
 					</resources>
